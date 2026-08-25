@@ -39,7 +39,7 @@ cdk?.approval === 'auto' ? ok('contextdevkit approval is auto') : bad(`contextde
 cdk?.versionPolicy === 'pinned' ? ok('contextdevkit versionPolicy is pinned') : bad(`contextdevkit versionPolicy: ${cdk?.versionPolicy}`);
 typeof cdk?.pin?.npm === 'string' ? ok('contextdevkit pin.npm is a string') : bad('contextdevkit pin.npm missing');
 cdk?.requiredSecrets?.length === 0 ? ok('contextdevkit requiredSecrets is empty') : bad(`contextdevkit requiredSecrets: ${JSON.stringify(cdk?.requiredSecrets)}`);
-cdk?.provenance?.publisher === 'reiTavares' ? ok('contextdevkit provenance.publisher correct') : bad(`contextdevkit provenance.publisher: ${cdk?.provenance?.publisher}`);
+cdk?.provenance?.publisher === 'Maestra-Tech' ? ok('contextdevkit provenance.publisher correct') : bad(`contextdevkit provenance.publisher: ${cdk?.provenance?.publisher}`);
 cdk?.provenance?.license === 'MIT' ? ok('contextdevkit provenance.license is MIT') : bad(`contextdevkit provenance.license: ${cdk?.provenance?.license}`);
 typeof cdk?.provenance?.url === 'string' && cdk.provenance.url.length > 0 ? ok('contextdevkit provenance.url set') : bad('contextdevkit provenance.url missing');
 Array.isArray(cdk?.provenance?.requestedPermissions) ? ok('contextdevkit provenance.requestedPermissions is array') : bad('contextdevkit provenance.requestedPermissions missing');

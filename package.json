@@ -58,11 +58,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reiTavares/ContextDevKit.git"
+    "url": "git+https://github.com/Maestra-Tech/ContextDevKit.git"
   },
-  "homepage": "https://github.com/reiTavares/ContextDevKit#readme",
+  "homepage": "https://github.com/Maestra-Tech/ContextDevKit#readme",
   "bugs": {
-    "url": "https://github.com/reiTavares/ContextDevKit/issues"
+    "url": "https://github.com/Maestra-Tech/ContextDevKit/issues"
   },
   "keywords": [
     "claude-code",

@@ -1,7 +1,7 @@
 # contextkit/ — ContextDevKit platform
 
 This folder is the AI-assisted development platform installed by
-[ContextDevKit](https://github.com/reiTavares/ContextDevKit). It is a **bounded
+[ContextDevKit](https://github.com/Maestra-Tech/ContextDevKit). It is a **bounded
 context** separate from your product code — everything here exists to make
 Claude Code sessions reliable, self-documenting, and consistent across time.
 
@@ -71,7 +71,7 @@ self-update are detected):
 ```bash
 npx contextdevkit@latest --target . --update
 # or, offline / from GitHub:
-npx github:reiTavares/ContextDevKit --target . --update
+npx github:Maestra-Tech/ContextDevKit --target . --update
 ```
 
 Use `--allow-active-sessions` to proceed with active sessions detected (a

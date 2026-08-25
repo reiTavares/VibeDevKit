@@ -4,7 +4,7 @@
     {
       "id": "contextdevkit",
       "displayName": "ContextDevKit MCP",
-      "publisher": "reiTavares",
+      "publisher": "Maestra-Tech",
       "source": "npm:contextdevkit-mcp",
       "transport": "stdio",
       "risk": "R0",
@@ -22,8 +22,8 @@
       },
       "approval": "auto",
       "provenance": {
-        "publisher": "reiTavares",
-        "url": "https://github.com/reiTavares/ContextDevKit",
+        "publisher": "Maestra-Tech",
+        "url": "https://github.com/Maestra-Tech/ContextDevKit",
         "version": "1.0.0",
         "hash": null,
         "license": "MIT",

@@ -31,7 +31,7 @@ export async function runMcp002RegistryChecks({ ok, bad }, { PLATFORM, MCP_DIR, 
   cdk?.transport === 'stdio' ? ok('mcp-002/registry: contextdevkit transport=stdio') : bad(`mcp-002/registry: contextdevkit transport ${cdk?.transport}`);
   cdk?.approval === 'auto' ? ok('mcp-002/registry: contextdevkit approval=auto') : bad(`mcp-002/registry: contextdevkit approval ${cdk?.approval}`);
   typeof cdk?.pin?.npm === 'string' ? ok('mcp-002/registry: contextdevkit pin.npm set') : bad('mcp-002/registry: contextdevkit pin.npm missing');
-  cdk?.provenance?.publisher === 'reiTavares' ? ok('mcp-002/registry: contextdevkit provenance.publisher') : bad(`mcp-002/registry: provenance.publisher ${cdk?.provenance?.publisher}`);
+  cdk?.provenance?.publisher === 'Maestra-Tech' ? ok('mcp-002/registry: contextdevkit provenance.publisher') : bad(`mcp-002/registry: provenance.publisher ${cdk?.provenance?.publisher}`);
   cdk?.provenance?.license === 'MIT' ? ok('mcp-002/registry: contextdevkit provenance.license=MIT') : bad(`mcp-002/registry: provenance.license ${cdk?.provenance?.license}`);
   cdk?.requiredSecrets?.length === 0 ? ok('mcp-002/registry: contextdevkit requiredSecrets empty') : bad(`mcp-002/registry: requiredSecrets ${JSON.stringify(cdk?.requiredSecrets)}`);
 

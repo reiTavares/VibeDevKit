@@ -108,7 +108,7 @@ the level-5 gates — they add commands and tooling, not new hooks.
 6. Install straight from the repository.
 
    ```shell
-   npx github:reiTavares/ContextDevKit
+   npx github:Maestra-Tech/ContextDevKit
    ```
 
    Same installer, same flags. Useful in an environment where the package registry is

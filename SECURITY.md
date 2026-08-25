@@ -13,12 +13,12 @@ costs you time and us signal.
 ## How to report
 
 Use GitHub's private vulnerability reporting on the repository: open
-<https://github.com/reiTavares/ContextDevKit/security/advisories> and choose
+<https://github.com/Maestra-Tech/ContextDevKit/security/advisories> and choose
 **Report a vulnerability**. That keeps the report and the discussion private until
 a fix exists.
 
 If that form is unavailable to you, open a normal issue at
-<https://github.com/reiTavares/ContextDevKit/issues> that asks for a private
+<https://github.com/Maestra-Tech/ContextDevKit/issues> that asks for a private
 channel and contains **no** exploit detail, no proof-of-concept and no affected
 path. A maintainer will follow up privately.
 
